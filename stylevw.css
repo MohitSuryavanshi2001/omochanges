@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.centers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.430989583333333vw;
+    width: 100%;
+    height: 44.595052083333336vw;
+    background-color: #f1f1f1;
+}
+
+.cen-upper {
+    width: 100%;
+    height:18.224609375vw;
+    background-color: #f1f1f1;
+}
+.cen-img1{
+    position: absolute;
+    left: 17.903645833333332vw;
+    top: 16.276041666666668vw;
+    height: 16.479166666666668vw;
+    width: 16.479166666666668vw;
+}
+.cen-img2{
+    position: absolute;
+    left: 41.015625vw;
+    top: 16.276041666666668vw;
+    height: 16.479166666666668vw;
+    width: 16.479166666666668vw;
+}
+.cen-img3{
+    position: absolute;
+    left: 64.19270833333333vw;
+    top: 16.276041666666668vw;
+    height: 16.479166666666668vw;
+    width: 16.479166666666668vw;
+}
+
+.cen-lower {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2.7154947916666665vw;
+    width: 100%;
+    height: 26.370442708333332vw;
+    background-color: #414141;
+}
+
+.cen-head {
+    margin-top: 5.848307291666667vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cen-heading {
+    color: #414141;
+    font-family: Lato;
+    font-size: 2.5065104166666665vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cen-heading1 {
+    color: #F16E22;
+    font-family: Lato;
+    font-size: 2.5065104166666665vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cen-heading2 {
+    color: #005FA3;
+    font-family: Lato;
+    font-size: 2.5065104166666665vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img1 {
+    width: 7.006640625vw;
+    height: 4.922916666666667vw;
+}
+
+.card {
+    width: 20.46985677083333vw;
+    height: 21.775325520833334vw;
+    border-radius: 0vw 0vw 1.5666015624999998vw 1.5666015624999998vw;
+    background: #FFF;
+    box-shadow: 0.10442708333333334vw -0.156640625vw 0.4386067708333334vw -0.20885416666666667vw rgba(0, 0, 0, 0.25);
+}
+
+.card1-head {
+    margin-top: 11.358072916666666vw;
+    text-align: center;
+    color: #005FA3;
+    font-family: Lato;
+    font-size: 1.9843098958333334vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 0.3932291666666667vw;
+    margin-top: 1.9915364583333333vw;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 0.14843749999999997vw;
+    margin-top: 0.59765625vw;
+}
+
+.card1-img2 {
+    width: 1.8798828125vw;
+    height: 1.8798828125vw;
+}
+
+.card1-img {
+    width: 1.6710286458333334vw;
+    height: 1.6710286458333334vw;
+}
+
+.card1-add {
+    color: #000;
+    font-family: Lato;
+    font-size: 0.7832682291666667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.8%;
+    /* 17.181px */
+}
+
+.card1-con {
+    color: #000;
+    font-family: Lato;
+    font-size: 0.7832682291666667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.8%;
+    /* 17.181px */
+}
+
+.card2-head {
+    margin-top: 11.358072916666666vw;
+    text-align: center;
+    color: #F16E22;
+    font-family: Lato;
+    font-size: 1.9843098958333334vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card3-head {
+    margin-top: 11.358072916666666vw;
+    text-align: center;
+    color: #943989;
+    font-family: Lato;
+    font-size: 1.9843098958333334vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section {
+    height: 39.713541666666664vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 68.61979166666667vw;
+    height: 30.6640625vw;
+    border: 0.10442708333333334vw solid #414141;
+
+}
+
+.map-head {
+    width: 100%;
+    height: 4.125325520833333vw;
+    background: #414141;
+    display: flex;
+    align-items: center;
+    gap: 22.454427083333332vw;
+    padding-left: 2.3496093750000004vw;
+}
+
+.head1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.8798828125vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.p1 {
+    width: 13.151041666666666vw;
+    height: 5.2734375vw;
+    border-bottom: 0.10416666666666667vw solid #A8A8A8;
+    padding-left: 1.0416666666666667vw;
+    padding-top: 1.0416666666666667vw;
+}
+
+.sec2 {
+    display: flex;
+}
+
+.map-img {
+    width: 55.274088541666664vw;
+    height: 26.397135416666668vw;
+}
+
+.p1f {
+    display: flex;
+    align-items: center;
+    gap: 1.5989583333333333vw;
+    margin-top: 0.78125vw;
+}
+
+.sec2-h {
+    color: #000;
+    font-family: Lato;
+    font-size: 1.3576822916666667vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sec2-c {
+    color: #3D3D3D;
+    font-family: Lato;
+    font-size: 0.9399739583333333vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.arrow {
+    width: 1.30546875vw;
+    height: 1.30546875vw;
+}
+
+.city {
+    text-decoration: none;
+}
+
+.videos {
+    padding:4.557291666666667vw 0vw;
+}
+
+.vid-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14.174934895833333vw;
+    gap: 1.1516927083333335vw;
+}
+
+.vid-2 {
+    margin-top: 2.7994791666666665vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14.174934895833333vw;
+    gap: 1.1516927083333335vw;
+}
+
+.vide {
+    color: #000;
+    font-family: Lato;
+    font-size: 1.5946614583333334vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0.6510416666666666vw;
+}
+
+.vid {
+    background-color: #3D3D3D;
+    width: 19.7123046875vw;
+    height: 11.075455729166668vw;
+}
